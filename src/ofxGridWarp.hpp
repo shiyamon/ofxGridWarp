@@ -27,6 +27,9 @@ public:
     bool isControllerEnabled() { return _controllerEnabled; }
     void saveToFile(string filename);
     
+    int getWidth() { return _width; }
+    int getHeight() { return _height; }
+    bool getControllerEnabled() { return _controllerEnabled; }
     void mousePressed(ofMouseEventArgs &args);
     void mouseReleased(ofMouseEventArgs &args);
     void mouseMoved(ofMouseEventArgs &args);
