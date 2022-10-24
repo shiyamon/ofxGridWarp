@@ -41,7 +41,7 @@ public:
     
 private:
     const float POINT_RAD = 10.0f;
-    const int   GRID_SUBDIV = 4;
+    const int   GRID_SUBDIV = 8;
     
     ofMesh              _mesh;
     vector<glm::vec3>   _ctrlPoints;
